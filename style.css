@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Corben&family=Lato:wght@100&family=Nanum+Myeongjo:wght@700&family=Roboto&family=Rubik+Mono+One&display=swap');
+
+body, html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+    font-family: sans-serif;
+    margin: 0;
+    background-color: white
+}
+
+header {
+    display: flex;
+    background-color: #F1F2F6;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+}
+
+.hleft {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+
+.hleft h1 {
+    font-size: 2rem;
+    font-family:'Lato', sans-serif;
+    align-self: center;
+}
+
+
+
+.hnav {
+    width: 70%;
+
+  }
+
+.navlinks {
+
+    display: flex;
+    text-transform: uppercase;
+    color: black;
+    align-items: center;
+    font-family:'Lato', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.highlighted {
+  background-color: #E9EDF0;
+  padding: 0.3rem 1.2rem;
+  color: white;
+  border: 1px solid rgb(202, 198, 198);
+  border-radius: 6px;
+}
+
+
+
+
+
+.home-container {
+        display: flex;
+        width: 100%;
+        height: auto;
+        
+  }
+
+  .home-col-left {
+    display: flex;
+    background-color: #F1F2F6;
+    height: 80vh;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-col-left>img {
+    display: flex;
+    height: 90%;
+    border-radius: 90%;
+    margin: 6.5rem 0;
+
+
+
+  }
+
+  .home-col-right {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F2F6;
+    height: 80vh;
+    width: 60%;
+  }
+
+  .home-col-right>h1 {
+ 
+    color: black;
+    font-size: 6rem;
+    font-family: 'Nanum Myeongjo', serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin: 12rem 0 0 1.6rem;
+  }
+
+  .home-col-right h3 {
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:1.8rem;
+    width: 100%;
+    margin-left: 2.2rem;
+
+
+  }
+
+  .home-col-right h4 {
+    color: #564D4A;
+    font-family:'Lato', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0 0 0 2.2rem;
+
+
+}
+
+.portlink{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 4rem 0 8rem 2.2rem;
+    align-self: flex-start;
+    font-family:'Lato', sans-serif;
+    padding: 0.8rem;
+}
+
+
+  footer {
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    background-color: #F1F2F6;
+    
+
+  }
+
+  footer p  {
+    font-family:'Lato', sans-serif;
+    font-weight: 600;
+    align-self: center;
+    margin: 0rem 1rem; 
+}
+
+
+  
+  
+  
+  
+  
+.about-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+}
+
+.about-col-left {
+display: flex;
+background-color: #F1F2F6;
+height: 80vh;
+width: 40%;
+justify-content: center;
+align-items: center;
+}
+
+.about-col-left>img {
+display: flex;
+height: 90%;
+border-radius: 100%;
+margin: 6.5rem 0;
+
+
+
+}
+
+.about-col-right {
+display: flex;
+flex-direction: column;
+background-color: #F1F2F6;
+height: 80vh;
+width: 60%;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.about-col-right h3 {
+color: #343537;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 3rem;
+font-weight: 1200;
+width: auto;
+margin: 1rem 0 0 1.6rem;
+
+
+}
+
+.about-col-right h4 {
+color: #564D4A;
+font-family: 'Nanum Myeongjo', serif;
+font-size: 2rem;
+font-weight: 800;
+width: auto;
+margin: 12rem 0 0 1.6rem;
+
+
+}
+
+.about-col-right>p {
+font-size: 1.4rem;
+font-weight: 800;
+font-family:'Lato', sans-serif;
+width: 80%;
+margin: 2rem 0 18rem 1.6rem;
+}
+
+
+
+
+
+
+
+.projects-container {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  
+}
+
+.projects-col-left {
+display: flex;
+background-color: #F1F2F6;
+height: 80vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.projects-col-left>img {
+display: flex;
+height: fit-content;
+width: 48vw;
+margin: 0rem 0 0 0rem;
+border-radius: 5px;
+border: 1px solid black;
+
+
+
+
+}
+
+.projects-col-right {
+display: flex;
+flex-direction: column;
+background-color: #F1F2F6;
+height: 80vh;
+width: 100%;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.projects-col-right>h1 {
+
+color: black;
+font-size: 3rem;
+font-weight:800;
+font-family: 'Nanum Myeongjo', serif;
+display: flex;
+align-items: center;
+width: 100%;
+height: 10%;
+margin: 5rem 0 0 3rem;
+}
+
+
+.projects-col-right>p {
+color: #343537;
+font-family:'Lato', sans-serif;
+font-size: 1.8rem;
+font-weight: 700;
+width: 70%;
+margin: 2.2rem 0 0 4rem;
+}
+
+
+
+
+.resume-container {
+  display: flex;
+
+  width: 100%;
+  height: 80vh;
+  
+}
+
+.resume-col-left {
+display: flex;
+flex-direction: column;
+background-color: #F1F2F6;
+height: 80vh;
+width: 45%;
+border-right: 1px solid black;
+}
+
+.resume-col-left>h2 {
+color: black;
+font-size: 3rem;
+font-weight: bold;
+font-family: 'Nanum Myeongjo', serif;
+width: 100%;
+height: 10%;
+margin: 3rem 0 0 6.5rem;
+}
+
+.resume-col-left>p {
+font-family:'Lato', sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+width: 80%;
+margin: 3rem;
+}
+
+.resume-col-left>img {
+display: flex;
+height: fit-content;
+width: 45vw;
+margin-left: 4rem;
+border-radius: 10px;
+border: 1px solid black;
+
+
+}
+
+.resume-col-right {
+display: flex;
+flex-direction: column;
+background-color: #F1F2F6;
+height: 80vh;
+width:35%;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.resume-col-right>h1 {
+
+color: black;
+font-size: 3rem;
+font-weight: bold;
+font-family: 'Nanum Myeongjo', serif;
+align-items: center;
+width: 100%;
+height: 10%;
+margin: 3rem 0 0 3rem;
+}
+
+.resume-col-right>ul {
+list-style: none;
+
+display: flex;
+flex-direction: column;
+color: #BA1B1D;
+margin: 2rem 0 0 0.8rem;
+}
+
+
+.resume-list>li {
+font-size: 1.5rem;
+color: #343537;
+font-family: 'Nanum Myeongjo', serif;
+margin-top: 1.3rem;
+}
+
+
+
+.resume-col-right h4 {
+color: #564D4A;
+font-family:'lato', sans-serif;
+font-size: 1rem;
+width: 100%;
+margin: 1rem 0;
+
+
+
+}
+
+.resume-col-right p {
+color: black;
+margin: 0rem 0 1rem 2rem;
+font-family:'Roboto', sans-serif;
+}
+
+.resume-col-img {
+height: auto;
+width: auto;
+background-color: #F1F2F6;
+}
+
+.resume-col-img>img {
+display: flex;
+height: 40%;
+border-radius: 90%;
+margin: 6.5rem 0;
+margin-right: 3rem;
+
+}
+
+
+
+  @media screen and (max-width: 650px) {
+    
+    
+    header {
+      flex-direction: column;
+      justify-content: space-between;
+      height: 30vh;
+    }
+
+    .hleft {
+      width: 100%;
+      height: 5vh;
+    }
+
+    .hnav {
+      display: flex;
+      width: 100%;
+      height: 20vh;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .navlinks {
+      
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    
+    .navlink>li {
+      width: 100vh;
+
+
+    }
+
+    .home-container, .about-container, .projects-container, .resume-container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .home-col-left, .about-col-left, .projects-col-left, .resume-col-left  {
+      width: 100%;
+      height: 30vh;
+
+    }
+
+    .home-col-left>img {
+      width: auto;
+      height: 100%;
+      margin: 0;
+    }
+    .home-col-right, .about-col-right, .projects-col-right, .resume-col-right {
+      width: 100%;
+      height: auto;
+
+    }
+
+    .home-col-right>h1 {
+      margin-top: 2rem;
+    }
+
+    .about-col-right>h4 {
+      margin-top: 1rem;
+    }
+
+    .projects-col-left {
+      width: 100%;
+      height: auto;
+    }
+
+    .projects-col-left>img {
+      width: 90%;
+      height: fit-content;
+      margin-top: 4rem;
+    }
+    .projects-col-right>p {
+      width: 100%;
+      margin-bottom: 4rem;
+      font-size: 1.5rem;
+      align-self: center;
+    }
+
+    .projects-col-right>h4 {
+      margin-top: 4rem;
+
+    }
+    .projects-col-right>h1 {
+      margin-top: 4;
+    }
+
+
+    .resume-col-left {
+      width: 100%;
+      height: auto;
+      align-items: center;
+    }
+
+    .resume-col-img>img {
+      height: 30%;
+      width: 100%;
+    }
+    
+    footer {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+
+  }
