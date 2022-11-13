@@ -1,0 +1,43 @@
+{
+    "jobs": [{
+ 
+        "job": "Dagab Inköp & Logistik AB and Acne Studios Warehouse",
+        "type": "Warehouse worker."
+    },
+ 
+    {
+        "job": "Tullgårdsskolan, Södermalm",
+        "type": "Substitue teacher."
+ 
+    }],
+    
+
+    
+    "schools": [{
+        
+            "school": "Chas Academy, Fullstack JavaScript. "
+        
+    
+    },
+    {
+        "school": "Biskops Arnö Folkhögskola, Songwriting Program."
+        
+    
+    },
+    {
+        "school": "Lunnevads Folkhögskola, Jazz Program, Drums."
+        
+    
+    },
+    {
+        "school": "Rytmus Musikgymnasium, Music, Drums."
+    
+    }]
+    
+        
+}
+
+
+
+
+

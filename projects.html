@@ -22,18 +22,41 @@
         </nav>
     </header>
     <main class="projects-container">
-        <section class="projects-col-left">
-            <img src="krautsidan.png" alt="A krautwebsite.">
-        </section>
-        <section class="projects-col-right">
+        <section class="projects-text">
             <h1>1. German Kraut For Dummies</h1>
             <p>A website celebrating the music genre "krautrock", listing some essential german kraut records.</p>
         </section>
-    </main>
-    <footer>
-        <p>Email: nordensonkalle@gmail.com</p>
-        <p>Phone: 0707902333</p>
-    </footer>
+        <section class="projects-images">
+            <img class="modal-target" src="krautsidan.png" alt="A krautwebsite.">
 
+            <div id="modal" class="modal">
+                <span id="modal-close" class="modal-close">&times;</span>
+                <img id="modal-content" class="modal-content">
+                <div id="modal-caption" class="modal-caption"></div>
+              </div>
+        </section>
+        
+        <section class="projects-text">
+            <h1>2. Rock, Paper, Scissors!</h1>
+            <a href="https://github.com/chasacademy-karl-nordenson/rock-paper-scissors">A simple Rock, Paper, Scissors game</a>
+        </section>
+        <section class="projects-images">
+            <img class="modal-target" src="rockpaperscissors.png" alt="A rock, paper scissors game.">
+
+            <div id="modal" class="modal">
+                <span id="modal-close" class="modal-close">&times;</span>
+                <img id="modal-content" class="modal-content">
+                <div id="modal-caption" class="modal-caption"></div>
+              </div>
+        </section>
+        
+
+        <footer>
+            <p>Email: nordensonkalle@gmail.com</p>
+            <p>Phone: 0707902333</p>
+        </footer>
+    </main>
+
+<script src="app.js"></script>
 </body>
 </html>
