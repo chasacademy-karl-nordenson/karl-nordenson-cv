@@ -15,6 +15,18 @@
 
   gtag('config', 'G-8R57VBYNRJ');
 </script>
+<script>
+    // Function to track button click event
+    function trackButtonClick() {
+      gtag('event', 'click', {
+        'event_category': 'Button',
+        'event_label': 'Projects Button Clicked'
+      });
+    }
+
+    // Add a click event listener to the button
+    document.getElementById('projectsButton').addEventListener('click', trackButtonClick);
+  </script>
 </head>
 <body>
     <header>
@@ -41,7 +53,7 @@
             <h1>Hi!</h1>
             <h3>I'm Karl</h3>
             <h4>Fullstack JavaScript Developer based in Stockholm.</h4>
-            <a href="projects.html" class="portlink">PROJECTS</a>
+            <a href="projects.html" class="portlink" id="projectsButton">PROJECTS</a>
         </section>
         </main>
     <footer>
