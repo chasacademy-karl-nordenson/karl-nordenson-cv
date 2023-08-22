@@ -16,17 +16,22 @@
   gtag('config', 'G-8R57VBYNRJ');
 </script>
 <script>
-    // Function to track button click event
     function trackButtonClick() {
-      gtag('event', 'click', {
-        'event_category': 'Button',
-        'event_label': 'Projects Button Clicked'
-      });
+        console.log('Button clicked');
+
+        gtag('event', 'click', {
+            'event_category': 'Button',
+            'event_label': 'Projects Button Clicked'
+        });
     }
 
-    // Add a click event listener to the button
-    document.getElementById('projectsButton').addEventListener('click', trackButtonClick);
-  </script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var projectsButton = document.getElementById('projectsButton');
+        if (projectsButton) {
+            projectsButton.addEventListener('click', trackButtonClick);
+        }
+    });
+</script>
 </head>
 <body>
     <header>
